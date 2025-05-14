@@ -1,16 +1,14 @@
-import { Button } from "@/components/ui/button";
-
+import { Link } from "react-router-dom";
+import Hero from "@/components/layout/Hero";
+import Footer from "@/components/layout/Footer";
 
 function App() {
- 
-
   return (
     <>
-      <h1>Travel Planner</h1>
-      <Button>Click me</Button>
+      <Hero />
      
     </>
-  )
+  );
 }
 
-export default App
+export default App;
